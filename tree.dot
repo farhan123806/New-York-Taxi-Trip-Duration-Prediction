@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="total_distance <= 2755.15\nmse = 0.628\nsamples = 486214\nvalue = 6.468", fillcolor="#e58139a6"] ;
+1 [label="total_distance <= 1302.75\nmse = 0.465\nsamples = 242865\nvalue = 5.969", fillcolor="#e5813993"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="total_travel_time <= 72.95\nmse = 0.619\nsamples = 73535\nvalue = 5.485", fillcolor="#e5813981"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+874 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 874 ;
+4491 [label="total_distance <= 1938.25\nmse = 0.253\nsamples = 169330\nvalue = 6.179", fillcolor="#e581399b"] ;
+1 -> 4491 ;
+4492 [label="(...)", fillcolor="#C0C0C0"] ;
+4491 -> 4492 ;
+9503 [label="(...)", fillcolor="#C0C0C0"] ;
+4491 -> 9503 ;
+14898 [label="total_travel_time <= 637.55\nmse = 0.294\nsamples = 243349\nvalue = 6.967", fillcolor="#e58139b9"] ;
+0 -> 14898 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+14899 [label="total_distance <= 4056.05\nmse = 0.198\nsamples = 165001\nvalue = 6.752", fillcolor="#e58139b1"] ;
+14898 -> 14899 ;
+14900 [label="(...)", fillcolor="#C0C0C0"] ;
+14899 -> 14900 ;
+20139 [label="(...)", fillcolor="#C0C0C0"] ;
+14899 -> 20139 ;
+25116 [label="total_travel_time <= 1082.45\nmse = 0.197\nsamples = 78348\nvalue = 7.418", fillcolor="#e58139cb"] ;
+14898 -> 25116 ;
+25117 [label="(...)", fillcolor="#C0C0C0"] ;
+25116 -> 25117 ;
+28614 [label="(...)", fillcolor="#C0C0C0"] ;
+25116 -> 28614 ;
+}
