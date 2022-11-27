@@ -11,6 +11,7 @@ To improve the efficiency of taxi dispatching systems for such services, it is i
 In this Project, we are challenged to build a model that predicts the total ride duration of taxi trips in New York City.
 
 Data files:
+
 https://drive.google.com/file/d/1Nywj7RhL-dNOPtqS929MRz7fVoPmR5cn/view?usp=sharing
 
 https://drive.google.com/file/d/16W18M6fbisz3OGcJ58ihjfFEpMnuAFGR/view?usp=sharing
