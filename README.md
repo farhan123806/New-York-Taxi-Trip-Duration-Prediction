@@ -10,9 +10,6 @@ To improve the efficiency of taxi dispatching systems for such services, it is i
 
 In this Project, we are challenged to build a model that predicts the total ride duration of taxi trips in New York City.
 
-Sometimes, adding external information can be crucial for improving the model. Here we will use data extracted from The Open Source Routing Machine or OSRM for each trip in our original dataset. OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. This will give us a very good estimate of distances between pickup and dropoff Points
-
-Source: http://project-osrm.org/
 
 Data files:
 
@@ -21,3 +18,7 @@ https://drive.google.com/file/d/1Nywj7RhL-dNOPtqS929MRz7fVoPmR5cn/view?usp=shari
 https://drive.google.com/file/d/16W18M6fbisz3OGcJ58ihjfFEpMnuAFGR/view?usp=sharing
 
 https://drive.google.com/file/d/1QU8XoNCGed7dEscq_bH835eYtPFqRFoD/view?usp=sharing
+
+Sometimes, adding external information can be crucial for improving the model. Here we will use data extracted from The Open Source Routing Machine or OSRM for each trip in our original dataset. OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. This will give us a very good estimate of distances between pickup and dropoff Points
+
+Source: http://project-osrm.org/
